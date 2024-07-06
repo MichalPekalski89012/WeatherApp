@@ -1,26 +1,17 @@
 <template>
     <div class="weather-info-container">
-        <div class="wind-speed-container">
-            <figure>
-                <img src="../assets/wind.png" alt="">
-                <figcaption>Prędkość wiatru</figcaption>
-            </figure>
+        <div class="wind-speed-container info">
+            <img src="../assets/wind.png" alt="">
             <p>{{ windSpeed }}km/h</p>
         </div>
 
-        <div class="temp-container">
-            <figure>
-                <img src="../assets/temp.png" alt="">
-                <figcaption>Temperatura</figcaption>
-            </figure>
-            <p>{{ temp }}</p>
+        <div class="temp-container info">
+            <img src="../assets/temp.png" alt="">
+            <p>{{ temp }}&deg;C</p>
         </div>
 
-        <div class="humidity-container">
-            <figure>
-                <img src="../assets/humidity.png" alt="">
-                <figcaption>Wilgotność</figcaption>
-            </figure>
+        <div class="humidity-container info">
+            <img src="../assets/humidity.png" alt="">
             <p>{{ humidity }}%</p>
         </div>
 

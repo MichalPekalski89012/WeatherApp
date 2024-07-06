@@ -1,0 +1,60 @@
+
+
+#app{
+    font-family: Arial;
+    background: rgb(124,167,216);
+    background: linear-gradient(15deg, rgba(124,167,216,1) 0%, rgba(124,216,127,1) 100%);
+    margin: 0 auto;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+form{
+    display: flex;
+    column-gap: 24px;
+    width: 50%;
+    align-items: center;
+    margin-top: 16px;
+}
+
+form input{
+    width: 90%;
+    font-size: 64px;
+    border-radius: 32px;
+    padding: 8px;
+    border-style: none;
+}
+
+form button{
+    background-image: url('../assets/search.png');
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 64px;
+    height: 64px;
+    border-radius: 128px;
+    border-style: none;
+}
+
+
+.weather-icon{
+    min-width: 256px;
+    min-height: 256px;
+}
+
+.weather-info-container{
+    display: flex;
+    flex-direction: row;
+    column-gap: 64px;
+}
+
+.info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.info p{
+    font-size: 64px;
+}
