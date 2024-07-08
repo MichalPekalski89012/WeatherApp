@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "type": "module",
+  "homepage": "https://michalpekalski89012.github.io/WeatherApp/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
