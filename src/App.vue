@@ -13,8 +13,8 @@ import CityForm from './components/CityForm.vue'
 import WeatherIcon from './components/WeatherIcon.vue'
 import WeatherInfo from './components/WeatherInfo.vue'
 import { ref, computed} from 'vue';
+import {apiKey} from '../api.js';
 
-const apiKey = 'bf968c470f74c616ce9d261feca2c2f4';
 
 const apiUrl = `https://api.openweathermap.org/data/2.5/weather?appid=${apiKey}&units=metric`
 

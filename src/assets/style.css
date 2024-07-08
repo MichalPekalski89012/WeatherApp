@@ -1,6 +1,11 @@
 
+/* html, body{ 
+    min-height: 100vh;
+    overflow: auto;
+  } */
 
 #app{
+    height: 100vh;
     font-family: Arial;
     background: rgb(124,167,216);
     background: linear-gradient(15deg, rgba(124,167,216,1) 0%, rgba(124,216,127,1) 100%);
@@ -39,11 +44,13 @@ form button{
 
 
 .weather-icon{
-    min-width: 256px;
-    min-height: 256px;
+    min-width: 512px;
+    min-height: 512px;
 }
 
 .weather-info-container{
+    margin-top: 25vh;
+    padding-bottom: 64px;
     display: flex;
     flex-direction: row;
     column-gap: 64px;
@@ -57,4 +64,6 @@ form button{
 
 .info p{
     font-size: 64px;
+    font-weight: bold;
 }
+
